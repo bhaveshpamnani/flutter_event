@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:screens/card.dart';
 import 'package:screens/demomain.dart';
 import 'package:screens/profile.dart';
+import 'package:screens/screen.dart';
 import 'package:screens/screen1.dart';
 import 'package:screens/signin.dart';
 import 'package:screens/signup.dart';
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Profile(),
+      home: SignIn(),
     );
   }
 }

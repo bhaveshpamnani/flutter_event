@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:screens/screen.dart';
 import 'package:screens/screen1.dart';
 import 'package:screens/signin.dart';
 
@@ -176,7 +177,7 @@ class _SignUpState extends State<SignUp> {
                             Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => MainScreen(),
+                                builder: (context) => Screen(),
                               ),
                             );
                           },
